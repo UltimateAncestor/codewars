@@ -19,7 +19,7 @@ public class HumanReadableTime {
         int hours = seconds/3600;
         int minutes = seconds % 3600 / 60;
         int sec = seconds % 60;
-        StringBuilder result = new StringBuilder("");
+        StringBuilder result = new StringBuilder();
 
         if (hours < 10){
             result.append(0).append(hours).append(":");
