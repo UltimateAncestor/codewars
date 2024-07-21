@@ -34,8 +34,4 @@ public class HumanReadableTime {
         } else result.append(sec);
         return result.toString();
     }
-
-    public static void main(String[] args) {
-        System.out.println(makeReadable(359999));
-    }
 }
